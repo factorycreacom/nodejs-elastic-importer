@@ -17,3 +17,13 @@ var connectionString = 'http://localhost:9200';
 ## PAAS Deployment
 
 This sample can be deployed to Heroku, Pivotal, IBM Cloud with no change.
+
+## Using
+
+1-) start command `node app.js`
+2-) Go: http://localhost:4000
+3-) edit the index and type app.js (line 31-32) & line 23 data route (Json)
+4-) CREATE INDICES: http://localhost:4000/index
+INSERT DATA FROM JSON http://localhost:4000/insert
+
+Other routes optional
